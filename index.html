@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather ForeCast</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <h1 class="heading">Weather Forecast</h1>
+    <section class="container">
+        <article class="input-box">
+            <input type="text" id="search" autofocus placeholder="Search City...">
+            <label for="search" class="fa-solid fa-search"></label>
+        </article>
+        <article class="info">
+            <img src="" alt="" id="weather-icon">
+            <h2 class="temp"></h2>
+            <h3 class="city" style="text-transform: capitalize;"></h3>
+        </article>
+        <article class="other-info">
+            <div class="other">
+                <img src="" alt="" id="weather-icon2">
+                <p class="para1"></p>
+                <span class="hide" style="margin-left: 20px;">humidity</span>
+            </div>
+            <div class="other">
+                <img src="" alt="" id="weather-icon3">
+                <p class="para2"></p>
+                <span class="hide">wind speed</span>
+            </div>
+        </article>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
